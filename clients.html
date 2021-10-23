@@ -1,0 +1,17 @@
+<html>
+    <div id="pre">
+        <div id="ch">
+            <div id="choch"> <button id="btn">butn</button></div>
+        </div>
+    </div>
+    <script>
+        pre = document.getElementById("pre");
+        ch = document.getElementById("ch");
+        choch = document.getElementById("choch");
+        btn = document.getElementById("btn");
+        pre.addEventListener("click", ()=> console.log("hello pre"));
+        ch.addEventListener("click", ()=> console.log("hello ch"));
+        choch.addEventListener("click", ()=> console.log("hello choch"));
+        btn.addEventListener("click", (e)=> {e.returnValue=false;console.log(e); });
+    </script>
+</html>

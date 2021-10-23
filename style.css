@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.listener{
+    margin-top: 1px;
+    padding: 0px;
+}
+.navigate{
+    width: 60%;
+    background: #15202B;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    display: flex;
+}
+.icn-header{
+    display: flex;
+    padding: 8px;
+}
+.icn-header .fas{
+    font-size: 36px;
+    color: rgb(199, 48, 2);
+}
+.icn-header h1{
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(199, 48, 2);
+}
+.icn-header span{
+    color: rgb(199, 48, 2);
+}
+.navigate .user input[type="text"], input[type="password"]{
+    outline: none;
+    width: 40%;
+    border: none;
+    padding: 2px;
+    border-radius: 2px;
+    margin-left: 20px;
+    margin: auto;
+}
+.navigate .user button{
+    border: none;
+    border-radius: 2px;
+    background: none;
+    outline: 1px solid white;
+    font-size: 12px;
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+}
+.doc{
+    width: 60%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+}
+.bg{
+    width: 59.4%;
+    background: #15202B;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 4px;
+}
+.doc p{
+    font: small-caption;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 16%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.doc p span{
+    color: rgb(199, 48, 2);
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    cursor: pointer;
+}
+.fas{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(153, 152, 152);
+}
+.signup{
+    width: 30%;
+    padding: 8px;
+    margin: 50px auto;
+    background: #15202B;
+    border-radius: 4px;
+    outline: 1px solid rgb(0, 0, 0);
+}
+.signup .Signup{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: white;
+    text-align: center;
+}
+.signup .Signup input[type="text"], input[type="passwd"]{
+    padding: 8px;
+    outline: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.signup .Signup button{
+    border: none;
+    border-radius: 2px;
+    background: none;
+    outline: 1px solid rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 4px;
+    margin-top: 8%;
+    margin-left: 36%;
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+    width: 28%;
+}
+.signup .Signup h2{
+    text-align: center;
+    color: darkgrey;
+    text-decoration: underline;
+    font-size: 18x;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 8%;
+}
+.footer{
+    width: 59%;
+    background: #15202B;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 0.5%;
+    display: flex;
+}
+.footer h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.footer h3:hover{
+    color: orangered;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    cursor: pointer;
+}
